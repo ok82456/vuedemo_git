@@ -32,3 +32,13 @@ ssh-keygen -t rsa -C "youremail@example.com" 注册ssh
 
 git remote add origin git@github.com:ok82456/vuedemo_git.git 关联远程库
 使用命令git push -u origin master第一次推送master分支的所有内容；
+
+git clone git@github.com:michaelliao/gitskills.git 克隆本地库
+
+git checkout -b dev 创建dev分支，然后切换到dev分支
+$ git branch dev
+$ git checkout dev
+$ git branch  查看当前分支
+
+$ git checkout master 换回主分支
+$ git merge dev 合并分支代码
