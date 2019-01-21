@@ -3,6 +3,7 @@
 git config --global user.name "Your Name" 注册用户名
 git config --global user.email "email@example.com" 输入自己的邮箱
 
+
 mkdir vuedemo_git 创建vuedemo_git文件夹
 git init 初始化git文件夹
 
